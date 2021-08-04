@@ -39,25 +39,6 @@ public class ES {
     }
 
     /**
-     * Método para visualizar el arreglo generado en terminal
-     * 
-     * @param array a ser convertido en String para imprimirlo
-     * @return arrayString un arreglo de tipo String
-     */
-    public static String toStringArray(int[] array) {
-        String arrayString = "[";
-        for (int i = 0; i < array.length; i++) {
-            if (i == array.length - 1) {
-                arrayString += array[i] + "]";
-            } else {
-                arrayString += array[i] + ", ";
-            }
-        }
-
-        return arrayString;
-    }
-
-    /**
      * Método para escribir el arreglo en un archivo llamado array.txt
      * 
      * @param array el arreglo a escribir en el archivo
@@ -167,12 +148,12 @@ public class ES {
         int key = keyGenerator(array, k);
         int resultado = (exponentialSearch(array, array.length, key));
 
-        writeFile(toStringArray(array));
+        writeFile(Arrays.toString(array));
 
         // Para ver a detalle las variables que se toman para ejecutar Exponential
         // Search
 
-        // System.out.println(toStringArray(array));
+        // System.out.println(Array.toString(array));
         // System.out.println("Array length: " + array.length);
         // System.out.println("La llave es: " + key);
 
