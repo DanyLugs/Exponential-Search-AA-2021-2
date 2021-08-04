@@ -83,7 +83,7 @@ public class ES {
          * Funcion de Java que implementa una busqueda binaria en un arreglo ordenado
          * 
          * @param array       es el arreglo donde se ejecutará la busqueda binaria
-         * @param i           / 2 indice que funciona como cota inferior de la busqueda
+         * @param i/2         indice que funciona como cota inferior de la busqueda
          * @param Math.min(i, n - 1) indice que funciona como cota superior de la
          *                    busqueda
          * @param key         llave a ser buscada en el arreglo
@@ -153,7 +153,7 @@ public class ES {
         // Para ver a detalle las variables que se toman para ejecutar Exponential
         // Search
 
-        // System.out.println(Array.toString(array));
+        // System.out.println(Arrays.toString(array));
         // System.out.println("Array length: " + array.length);
         // System.out.println("La llave es: " + key);
 
